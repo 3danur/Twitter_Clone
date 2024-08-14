@@ -1,0 +1,164 @@
+.rounded {
+    width: 47px;
+    height: 38px;
+}
+
+body {
+    background-color: black;
+}
+
+.sidebar {
+    height: 200vh;
+    background-color: black;
+    color: white;
+    width: 360px;
+    /* margin-left: -50px; */
+
+
+
+
+}
+
+.btn-nav-link {
+    color: white;
+}
+
+.sidebar a {
+    color: white;
+    font-size: 20px;
+
+}
+
+.tweetBox_input input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+
+    background-color: #000000;
+    color: white;
+
+
+}
+
+.tweetBox_tweetButton {
+    width: 80px;
+    height: 40px;
+    display: flex;
+
+
+
+}
+
+.nav {
+    justify-content: center;
+    position: fixed;
+    background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav {
+      position: initial;
+    }
+  }
+
+.my-photo {
+    height: 42px;
+    width: 37px;
+    margin: 20px;
+
+}
+
+.img-fluid {
+    width: 80%;
+}
+
+.img-fluid2 {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 14px;
+
+
+}
+
+.img-fluid3 {
+    width: 90%;
+
+}
+
+.twitt-text {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: gray;
+    margin-bottom: 15px;
+
+}
+
+.form-control {
+    margin: 5px;
+    background-color: gray;
+    border: none;
+
+    display: block;
+
+
+}
+
+.widgets_input {
+    background-color:black;
+
+    border-radius: 1.2rem;
+    margin-top: 1rem;
+
+    /* margin-right: 5rem; */
+
+
+    /* justify-content: start; */
+
+
+}
+
+.widgets_input i .Search-container {
+    padding-right: 3rem;
+    position: fixed;
+
+}
+
+.Premium-abonecontainer {
+    color: white;
+    margin-top: 20px;
+    padding: 1rem;
+
+
+
+}
+
+.abone-text1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.twitt2-text {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+
+
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 0 0 ;
+} 
